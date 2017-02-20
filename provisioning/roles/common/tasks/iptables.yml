@@ -1,0 +1,3 @@
+- name: Iptables flush
+  command: iptables -F
+  become: yes

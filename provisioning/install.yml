@@ -1,0 +1,9 @@
+- hosts: all
+  vars:
+    database_name: suoreach
+    database_password: DPTy#5ACJb
+  become_method: sudo
+  roles:
+    - common
+    - python
+    - mysql

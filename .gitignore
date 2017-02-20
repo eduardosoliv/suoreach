@@ -36,9 +36,8 @@ pip-delete-this-directory.txt
 
 # Unit test / coverage reports
 htmlcov/
-.tox/
 .coverage
-.coverage.*
+.tox/
 .cache
 nosetests.xml
 coverage.xml
@@ -51,14 +50,6 @@ coverage.xml
 
 # Django stuff:
 *.log
-local_settings.py
-
-# Flask stuff:
-instance/
-.webassets-cache
-
-# Scrapy stuff:
-.scrapy
 
 # Sphinx documentation
 docs/_build/
@@ -66,24 +57,20 @@ docs/_build/
 # PyBuilder
 target/
 
-# IPython Notebook
+#Ipython Notebook
 .ipynb_checkpoints
 
-# pyenv
-.python-version
+# Vagrant
+Vagrantparams.yml
+.vagrant/
+*.retry
 
-# celery beat schedule file
-celerybeat-schedule
+# Config file
+config.yml
 
-# dotenv
-.env
+# Mac files
+.DS_Store
 
-# virtualenv
-venv/
-ENV/
-
-# Spyder project settings
-.spyderproject
-
-# Rope project settings
-.ropeproject
+# Others
+temp
+temp.py
