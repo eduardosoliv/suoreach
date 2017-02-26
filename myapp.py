@@ -35,6 +35,10 @@ if __name__ == '__main__':
         '/favicon.ico': {
             'tools.staticfile.on': True,
             'tools.staticfile.filename': os.path.join(static_dir, 'favicon.ico')
+        },
+        '/robots.txt': {
+            'tools.staticfile.on': True,
+            'tools.staticfile.filename': os.path.join(static_dir, 'robots.txt')
         }
     }
 
