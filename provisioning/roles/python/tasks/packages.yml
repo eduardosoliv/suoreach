@@ -8,6 +8,7 @@
     - records
     - pymysql
     - cherrypy
+    - jinja2
     # only for tests
     - pytest
     - pytest-cov
