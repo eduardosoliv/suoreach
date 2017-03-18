@@ -7,8 +7,12 @@ class Dashboard:
 
     @cherrypy.expose
     def index(self):
-        return "Dashboard!"
-    
+        return self.__templates.get_template('dashboard/index.html').render()
+
     @cherrypy.expose
-    def edit(self, number):
-        return self.__templates.get_template('dashboard.html').render(n=number)
+    def details(self):
+        return self.__templates.get_template('dashboard/details.html').render()
+
+    #@cherrypy.expose
+    #def edit(self, number):
+    #    return self.__templates.get_template('dashboard.html').render(n=number)
