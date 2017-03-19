@@ -10,8 +10,8 @@ class Dashboard:
         return self.__templates.get_template('dashboard/index.html').render()
 
     @cherrypy.expose
-    def details(self):
-        return self.__templates.get_template('dashboard/details.html').render()
+    def details(self, supplierid=None):
+        return self.__templates.get_template('dashboard/details.html').render({'supplierid': supplierid})
 
     #@cherrypy.expose
     #def edit(self, number):
