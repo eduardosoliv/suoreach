@@ -1,6 +1,8 @@
 {% extends "base.html" %}
 
 {% block precontent %}
+    <link href="../static/css/dashboard.css" rel="stylesheet">
+
     <nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse fixed-top">
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -19,10 +21,6 @@
     </nav>
 {% endblock %}
 
-{% block content %}
-    <div class="container-fluid">
-      <div style="padding: 5rem 1.5rem;">
-        {% block content2 %}{% endblock %}
-      </div>
-    </div>
+{% block js %}
+    <script src="../static/js/dashboard.js"></script>
 {% endblock %}
