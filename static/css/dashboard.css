@@ -8,11 +8,23 @@ body {
 
 .dsupplier-details-header {
   padding-top: 4rem;
-  padding-bottom: 3rem;
+  padding-bottom: 2rem;
   background-color: #eceeef;
-  border-radius: .3rem;
+}
+
+.dsupplier-details-brands {
+  margin-top: 1rem;
+  /*background-color: #eceeef; */
+  padding-top: 2rem;
+}
+
+.dsupplier-details-brands-table {
+  margin-top: 2rem;
 }
 
 .dsupplier-details-notes {
   margin-top: 3rem;
+  background-color: #eceeef;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
 }
