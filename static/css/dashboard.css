@@ -3,16 +3,16 @@ body {
 
 .table thead th {
   vertical-align: top;
-  border-top: 2px solid #ADDFFF;
-  border-bottom: 2px solid #ADDFFF;
+  border-top: 2px solid #aed6f1;
+  border-bottom: 2px solid #aed6f1;
 }
 
 .table td {
-  border-top: 1px solid #ADDFFF;
+  border-top: 1px solid #aed6f1;
 }
 
 .table tbody tr:hover {
-    background-color: #BDEDFF;
+    background-color: #ebf5fb;
 }
 
 .dsupplier-details-header {
